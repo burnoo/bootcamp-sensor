@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Sensor</string>
+    <string name="no_sensor">W urządzeniu brak sensora o nazwie: %1$s</string>
+    <string name="light_detector">Czujnik światła</string>
+    <string name="rotation_sensor">Czujnik orientacji</string>
+    <string name="accelerometer_sensor">Czujnik przyspieszenia</string>
 </resources>

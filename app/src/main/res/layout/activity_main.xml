@@ -5,6 +5,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
     tools:context=".main.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/transparentBackground"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".main.MainActivity">
+
+        <FrameLayout
+            android:id="@+id/infoBox1"
+            android:layout_width="@dimen/info_box_width"
+            android:layout_height="@dimen/info_box_height"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@android:color/holo_red_dark"
+            android:scaleType="fitXY">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/infoBox2"
+            android:layout_width="@dimen/info_box_width"
+            android:layout_height="@dimen/info_box_height"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@android:color/holo_blue_dark"
+            android:scaleType="fitXY">
+        </FrameLayout>
+    </FrameLayout>
 </FrameLayout>
